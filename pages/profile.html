@@ -1,0 +1,68 @@
+<!doctype html> <!правильный тон написания веб-страницы, некоторые браузеры не читают HTML-стр без doctype -- -->
+<html> <! известен как корневой элемент -- -->
+  <head> <! контейнер с контентом веб-страницы -- -->
+    <meta charset="utf-8"/> 
+    <title>ArtSpace</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body> 
+      <div id="main">
+        <div class="signup-form">
+            <div class="image">
+            <img src="https://i.pinimg.com/736x/85/ba/f4/85baf40c0ef6248849fcf2ba0dd85772.jpg">
+            </div>
+            <form action="signupform">
+                <div class="container">
+                  <h3>Регистрация</h3>
+                  <hr>
+                  <label for="name"><b>Имя</b></label>
+                  <input type="text" placeholder="Введите имя пользователя" name="name" required>
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Введите email" name="email" required>
+              
+                  <label for="psw"><b>Пароль</b></label>
+                  <input type="password" placeholder="Введите пароль" name="psw" required>
+              
+                  <label for="psw-repeat"><b>Подтвердите пароль</b></label>
+                  <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+                  <hr>
+              
+                  <p>При создании аккаунта вы соглашаетесь <a href="#"> с Политикой конфиденциальности</a>.</p>
+                  <button type="submit" class="registerbtn">Зарегистрироваться</button>
+                </div>   
+                <div class="container-signin">       
+                  <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+                </div>
+              </form>
+        </div>
+        <div class="login-form">
+          <div class="image">
+            <img src="https://i.pinimg.com/736x/85/ba/f4/85baf40c0ef6248849fcf2ba0dd85772.jpg">
+            </div>
+            <form action="loginform">
+                <div class="container">
+                  <h3>Вход</h3>
+                  <hr>
+                  <label for="name"><b>Имя</b></label>
+                  <input type="text" placeholder="Введите имя пользователя" name="name" required>             
+                  <label for="psw"><b>Пароль</b></label>
+                  <input type="password" placeholder="Введите пароль" name="psw" required>  
+                  <hr>     
+                  <button type="submit" class="registerbtn">Войти</button>
+                </div>                     
+                <div class="container-login">
+                  <a href="#" class="forgpass">Забыли пароль?</a> 
+                  <p>Нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+                </div>
+            </form>
+        </div>
+      </div>  
+      <div class="button-container">
+        <button class="fixed-button">На главную</button>
+     </div>
+     
+    
+     <!alt - пояснительный текст, должен предоставить достаточную инфо об изображении -- -->
+  </body>
+</html>
+
